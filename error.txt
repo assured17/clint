@@ -1,0 +1,71 @@
+Job <81875> is submitted to default queue <m-q>.
+<<Waiting for dispatch ...>>
+<<Starting on eda02.edacluster.com>>
+
+Warning-[LINX_KRNL] Unsupported Linux kernel
+  Linux kernel '6.9.7-1.el7.elrepo.x86_64' is not supported.
+  Supported versions are 2.4* or 2.6*.
+
+Parsing design file '../../../../rtl/cl_core/ariane_wrapper_cl2.sv'
+
+Error-[SV-LCM-PND] Package not defined
+../../../../rtl/cl_core/ariane_wrapper_cl2.sv, 3
+$unit, "ariane_soc::"
+  Package scope resolution failed. Token 'ariane_soc' is not a package. 
+  Originating module '$unit'.
+  Move package definition before the use of the package.
+
+
+Error-[SV-LCM-PND] Package not defined
+../../../../rtl/cl_core/ariane_wrapper_cl2.sv, 6
+$unit, "rvfi_pkg::"
+  Package scope resolution failed. Token 'rvfi_pkg' is not a package. 
+  Originating module '$unit'.
+  Move package definition before the use of the package.
+
+
+Error-[SV-EEM-SRE] Scope resolution error
+../../../../rtl/cl_core/ariane_wrapper_cl2.sv, 25
+ariane_wrapper_cl2, "ariane_soc::IdWidth"
+  Target for scope resolution operator does not exist. Token 'ariane_soc' is 
+  not a class/package.  Originating module 'ariane_wrapper_cl2'.
+  Check that class or package exists with referred token as the name.
+
+
+Error-[SV-EEM-SRE] Scope resolution error
+../../../../rtl/cl_core/ariane_wrapper_cl2.sv, 50
+ariane_wrapper_cl2, "ariane_soc::IdWidth"
+  Target for scope resolution operator does not exist. Token 'ariane_soc' is 
+  not a class/package.  Originating module 'ariane_wrapper_cl2'.
+  Check that class or package exists with referred token as the name.
+
+
+Error-[SV-EEM-SRE] Scope resolution error
+../../../../rtl/cl_core/ariane_wrapper_cl2.sv, 75
+ariane_wrapper_cl2, "ariane_soc::IdWidth"
+  Target for scope resolution operator does not exist. Token 'ariane_soc' is 
+  not a class/package.  Originating module 'ariane_wrapper_cl2'.
+  Check that class or package exists with referred token as the name.
+
+
+Error-[SV-EEM-SRE] Scope resolution error
+../../../../rtl/cl_core/ariane_wrapper_cl2.sv, 84
+ariane_wrapper_cl2, "ariane_soc::IdWidth"
+  Target for scope resolution operator does not exist. Token 'ariane_soc' is 
+  not a class/package.  Originating module 'ariane_wrapper_cl2'.
+  Check that class or package exists with referred token as the name.
+
+
+Error-[SV-EEM-SRE] Scope resolution error
+../../../../rtl/cl_core/ariane_wrapper_cl2.sv, 151
+ariane_wrapper_cl2, "rvfi_pkg::rvfi_instr_t"
+  Target for scope resolution operator does not exist. Token 'rvfi_pkg' is not
+  a class/package.  Originating module 'ariane_wrapper_cl2'.
+  Check that class or package exists with referred token as the name.
+
+
+Error-[SE] Syntax error
+  Following verilog source has syntax error :
+  "../../../../rtl/cl_core/ariane_wrapper_cl2.sv", 151: token is 
+  'rvfi_instr_t'
+      rvfi_pkg::rvfi_instr_t[GC_COMMIT_PORTS-1:0] rvfi_gc;
